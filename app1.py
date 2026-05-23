@@ -113,7 +113,7 @@ def parse_data(file_obj):
             df.at[idx, 'Type'] = 'Sensor'
             df.at[idx, 'Categorie'] = curr_group
             
-    df['Meter_Type'] = df['Meter_Type'].fillna(method='ffill')
+    df['Meter_Type'] = df['Meter_Type'].ffill()
     for m in MONTHS:
         df[m] = pd.to_numeric(df[m].astype(str).str.replace(',', '.'), errors='coerce')
     return df
