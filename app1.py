@@ -167,7 +167,7 @@ if st.session_state.page == 'Welkom':
     ### Welkom bij het data dashboard van Healthy Workers.
     Deze tool helpt om databestanden te analyseren op:
     *   **Data Gaten:** Ontbrekende maanden of nul-waarden.
-    *   **Extreme Waarden:** Waarden die extreem hoog zijn of statistisch afwijken (Z-Score).
+    *   **Extreme Waarden:** Waarden die extreem hoog zijn of statistisch afwijken.
     *   **Duplicaten:** Identieke rijen in de dataset.
     
     Klik op de knop hieronder om te beginnen met het uploaden van de bestanden.
